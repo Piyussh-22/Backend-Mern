@@ -1,0 +1,20 @@
+# Ignore node_modules folders in all subfolders
+**/node_modules/
+
+# Ignore .env files (for secrets)
+**/.env
+
+# Ignore log files
+**/*.log
+
+# Ignore dist/build folders
+**/dist/
+**/build/
+
+# Ignore temporary files (optional)
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
